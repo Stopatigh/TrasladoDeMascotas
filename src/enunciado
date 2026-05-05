@@ -1,0 +1,13 @@
+Traslado de mascotas
+
+Se debe crear un sistema de traslado de mascotas
+La empresa de traslado de mascotas tiene su nombre, costo x km y costo mínimo.
+Los destinos se almacenan en un array dentro de la empresa
+Cada destino tiene su propio código, nombre, y distancia (en km)
+Debe poder agregarse destinos (verificar que el código no este repetido), 
+obtener destino (por código) y quitar destino (siempre y cuando no hayan viajes asociados)
+Debe poder agregarse viajes, especificando el código de destino, nombre de la mascota,
+ y porcentaje de descuento personalizado. acerca del viaje debe poder saberse su precio bruto y neto
+No puede agregarse un viaje a un destino que no existe
+Debe poder listarse los posibles destinos (ordenados mediante burbujeo)
+Debe poder listarse un resumen de los viajes, y el total facturado
